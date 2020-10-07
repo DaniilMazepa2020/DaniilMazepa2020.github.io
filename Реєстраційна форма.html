@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=	, initial-scale=1.0">
+	<title>Mazepa</title>
+	<style type="text/css">
+		legend{ font-weight: bold; }
+		fieldset{border-radius: 10px; padding: 10px}
+		form{border-radius: 10px; padding: 10px;}
+
+	</style>
+</head>
+<body>
+
+		<form style="background-color: lightgreen">
+			<h1 style="text-align: center;">Реєстраційна форма</h1>
+
+
+			<fieldset >
+				
+				<legend style="text-align: center;">Данні для авторизації</legend>
+				<p><input type="text" placeholder="Уведіть логін"></p>
+				<p><input type="password" placeholder="Уведіть пароль" ></p>
+				
+			</fieldset>
+			<fieldset>
+				<legend  style="text-align: center;"> Персональні данні</legend>
+				<p>
+					<label for="date">Дата народження</label>
+					<input type="date" id="date"><br>
+				</p>
+				<p>
+					Стать:
+					<input type="radio" name="gender">Чоловік
+					<input type="radio" name="gender">Жінка
+					<input type="radio" name="gender">Інша
+				</p>
+				<p>
+					Домашня адреса:
+					<textarea cols="20" rows="3"> </textarea>
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend  style="text-align: center;">Виберіть гуртки та факультативи</legend>
+				<p>
+					Гуртки:
+					<input type="checkbox" >Плавання
+					<input type="checkbox" >Футбол
+					<input type="checkbox" >Волейбол
+
+				</p>
+				<p>
+					Факультативи:
+					<select>
+						<option>Програмісти</option>
+						<option>Інженерія</option>
+						<option>Іноземні мови</option>
+
+
+					</select>
+				</p>
+
+
+			</fieldset>
+			<p style="text-align: center;"><input type="submit" value="Надіслати">
+				<input type="reset" value="Очистити">
+			</p>
+
+			
+		</form>
+</body>
+</html>
